@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;   
+    font-family: sans-serif;
+}
+header{
+    background-color: #918e8e;
+    padding: 20px 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav div a {
+    margin-left: 30px;
+}
+nav a span{
+    color: #b10ab1;
+    font-style: italic;
+    font-size: 35px;
+}
+ul li{
+    display: inline;
+}
+section{
+    padding: 20px 80px;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+.logo{
+    font-size: 25px;
+}
+.logo:hover{
+    color: #b10ab1;
+    text-shadow: 0 0 40px rgba(247, 238, 247, 0.5);
+    text-decoration: none;
+}
+
+.section-a-propos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    padding: 15px;
+}
+.box1 img{
+    width: 600px;
+    height: 300px;
+}
+#travail{
+    background: #b10ab1;
+}
+#travail h1{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.container-t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-t p{
+    color: #fff;
+    font-size: 30px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+caption{
+    padding-bottom: 15px;
+}
+th, td{
+    border: 1px solid #000;
+    padding: 15px;
+}
+th{
+    background: #b10ab1;
+}
